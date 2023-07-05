@@ -76,7 +76,7 @@ function MapComponent({ locations }) {
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBCGZeRftxdqscz9drl0dYGJNZ_yrLao0s">
+    <LoadScript googleMapsApiKey="private key">
       <GoogleMap mapContainerStyle={mapStyles} zoom={13} center={defaultCenter}>
         {locations.map((item, index) => {
           return (
